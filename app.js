@@ -11,13 +11,14 @@
 react element(object)=html(browser understands)
 
 */
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const parent=React.createElement(
     "div",
     {id:"parent"},
    [ React.createElement("div",{id:"child"},[
-    React.createElement("h1",{}," i am a batman"),
+    React.createElement("h1",{}," i am a man  "),
     React.createElement("h2",{}," i am a batman 2"),
 ]), React.createElement("div",{id:"child 2"},[
     React.createElement("h1",{}," i am a batman"),

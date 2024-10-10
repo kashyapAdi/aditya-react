@@ -1,0 +1,32 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "my react notes",
+    "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/kashyapAdi/aditya-react)"
+  },
+  "keywords": [
+    "react",
+    "lecture",
+    "notes",
+    "namaste"
+  ],
+  "author": "Aditya sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserList":[
+    "last 2 chrome version"
+  ]
+
+}
