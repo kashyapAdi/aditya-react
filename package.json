@@ -2,7 +2,9 @@
   "name": "react",
   "version": "1.0.0",
   "description": "my react notes",
-    "scripts": {
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -25,8 +27,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  "browserList":[
+  "browserList": [
     "last 2 chrome version"
-  ]
-
+  ],
+  "main": "app.js"
 }
